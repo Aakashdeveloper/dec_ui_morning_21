@@ -96,3 +96,38 @@ Inline(span,a,img)
 Block (p,div,h1)
 > They always start from new line
 > take whole row
+
+////////
+inline
+styletag
+stylesheet
+
+inline > styletag > stylesheet
+
+h1
+
+//Inline
+{
+    color:red;
+    font-size:30px
+}
+
+//styletag
+{
+    color:orange;
+    text-align:center;
+}
+
+//stylesheet
+{
+    text-align:right;
+    font-weight:bold;
+    font-size:40px
+}
+
+{
+    color:red;
+    font-size:30px;
+    text-align:center;
+    font-weight:bold;   
+}
