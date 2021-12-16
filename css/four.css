@@ -1,0 +1,41 @@
+h1{
+    text-align:center;
+    color:#1f648c
+}
+
+#para2{
+    color:#1a1818;
+    font-size: 20px;
+}
+.card{
+    height:400px; 
+    width:21%;
+    background-color:#236d8b;
+    float: left;
+    margin-left:3%;
+    overflow:scroll
+}
+.cardImg{
+    height:200px;
+    width:100%
+}
+
+.cardImg > img{
+    height:100%;
+    width:100%
+}
+.cardContent{
+    height:200px;
+    width:100%;
+    text-align:center;
+    color:white
+}
+#brown{
+    background-color:#5a3129
+}
+.gray{
+    background-color:#616f8a
+}
+.marron{
+    background-color:#715649
+}
