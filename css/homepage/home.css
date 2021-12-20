@@ -1,0 +1,51 @@
+body{
+    margin: auto;
+}
+#header{
+    height:60px;
+    width:100%;
+    background-color: #d2a08c;
+}
+
+#icon{
+    font-size:30px;
+    color:#13648c;
+    font-weight: bold;
+    margin-left: 1%;
+    margin-top: 10px;
+    position: absolute;
+}
+
+a{
+    text-decoration:none
+}
+
+#social{
+    float: right;
+    margin-right: 2%;
+}
+.slogo{
+    height: 50px;
+    width: 50px;
+}
+
+/* Search Css */
+
+#search{
+    height:400px;
+    width:100%;
+    background-image: url('images/foodWallpaper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 400px;
+}
+#quicksearch{
+    height:550px;
+    width:100%;
+    border:2px solid rgb(100, 204, 93)
+}
+#footer{
+    height:60px;
+    width:100%;
+    border:2px solid hotpink
+}

@@ -136,3 +136,9 @@ h1
 > TagName (h1,a,p)
 > ClassName (.) to Target something common
 > Id (#) to Target something unique
+
+solid
+dotted
+double
+groove
+dashed
