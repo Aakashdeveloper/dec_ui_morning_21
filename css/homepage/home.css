@@ -39,13 +39,67 @@ a{
     background-size: cover;
     background-size: 100% 400px;
 }
+
+#logo{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left:43%;
+    margin-top:2%;
+    position: absolute;
+    font-size:80px;
+    text-align: center;
+}
+
+#logo > span{
+    color:red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 16%;
+    margin-left: -36%;
+    position: absolute;
+
+}
+
+
+#heading{
+    font-size:45px;
+    text-align: center;
+    color:white;
+    margin-top:14%;
+    margin-left: 31%;
+    position: absolute;
+}
+
+.dropdown{
+    height: 60px;
+    width: 50%;
+    margin-top: 20%;
+    margin-left: 25%;
+    position: absolute;
+
+}
+
+select{
+    height:60px;
+    width:40%;
+    font-size: 20px
+}
+
+.restDrop{
+    width:59%; 
+}
+
 #quicksearch{
     height:550px;
-    width:100%;
-    border:2px solid rgb(100, 204, 93)
+    width:80%;
+    margin-left: 10%;
+    border:2px solid rgb(100, 204, 93);
+    margin-top:3%
 }
 #footer{
     height:60px;
     width:100%;
     border:2px solid hotpink
 }
+
