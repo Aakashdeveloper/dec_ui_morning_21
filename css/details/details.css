@@ -1,0 +1,116 @@
+body{
+    margin: auto;
+    background-color:#ecd4c9
+}
+#header{
+    height:60px;
+    width:100%;
+    background-color: #d2a08c;
+}
+
+#icon{
+    font-size:30px;
+    color:#13648c;
+    font-weight: bold;
+    margin-left: 1%;
+    margin-top: 10px;
+    position: absolute;
+    width: 50%;
+}
+
+#icon >a {
+    color:#13648c;
+}
+
+a{
+    text-decoration:none
+}
+
+.nav{
+    font-size:20px;
+    margin-left:2%;
+    color:#d60b0b !important;
+    font-weight: normal;
+}
+
+#social{
+    float: right;
+    margin-right: 2%;
+}
+.slogo{
+    height: 50px;
+    width: 50px;
+}
+
+.heading{
+    text-align: center;
+    font-size:30px;
+    font-weight: bold;
+}
+
+.content{
+    width:88%;
+    margin-left: 6%;
+    height: 600px;
+    margin-top: 1%;
+}
+
+#imgDiv{
+    width:45%;
+    height: 400px;
+    float: left;
+}
+
+#textDiv{
+    width:50%;
+    height: 500px;
+    float: left;
+    margin-left:2%;
+    margin-top:-3%
+}
+
+#footer{
+    height:60px;
+    background-color: #d2a08c;
+    width:100%;
+    bottom: 0;
+    position:fixed;
+    display: inline-block
+}
+
+#imgDiv > img{
+    width:100%;
+    height: 400px;
+}
+
+#textDiv > p {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.fa-star{
+    font-size:20px
+}
+
+.checked{
+    color:green
+}
+.icon{
+    display: inline-block;
+    margin-left:2%
+}
+#Available{
+    color:green;
+    font-size:35px
+}
+
+.btn{
+    height:48px;
+    width:200px;
+    color:white;
+    background-color:green;
+}
+
+.btn-info{
+    background-color:#c78333;
+}
