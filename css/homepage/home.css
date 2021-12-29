@@ -51,6 +51,7 @@ a{
     position: absolute;
     font-size:80px;
     text-align: center;
+    animation: movelogo 20s infinite;
 }
 
 #logo > span{
@@ -62,6 +63,21 @@ a{
 
 }
 
+@keyframes movelogo{
+    0% {margin-left:43%}
+    25% {margin-left:45%}
+    50% {margin-left:48%}
+    75% {margin-left:45%}
+    100% {margin-left:43%}
+
+}
+
+/*
+#logo:hover{
+    transition: margin-left 5s;
+    margin-left: 95%;
+}
+*/
 
 #heading{
     font-size:45px;
@@ -123,7 +139,16 @@ select{
     margin-left: 2%;
     margin-top: 2%;
     box-shadow: 10px 20px 10px gray;
-    border-radius:20%
+    border-radius:20%;
+    animation: danceContainer 10s infinite
+}
+
+@keyframes danceContainer{
+    0% {transform: rotate(-5deg)}
+    25% {transform: rotate(0deg)}
+    50% {transform: rotate(5deg)}
+    75% {transform: rotate(0deg)}
+    100% {transform: rotate(-5deg)}
 }
 
 .tileContainer:hover{
@@ -161,3 +186,83 @@ select{
     display: inline-block
 }
 
+@media screen and (max-width:1600px){
+    body{
+        background-color:rgb(200, 246, 200);
+    }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-color:rgb(208, 200, 246);
+    }
+}
+
+@media screen and (max-width:1200px){
+    body{
+        background-color:rgb(245, 193, 223);
+    }
+    #heading{
+        margin-top:18%;
+    }
+    
+    .dropdown{
+        margin-top: 28%;
+        margin-left: 32%;
+    }
+}
+@media screen and (max-width:1000px){
+    body{
+        background-color:#e5adad;
+    }
+    #heading{
+        margin-top:20%;
+        margin-left: 20%;
+    }
+    
+    .dropdown{
+        margin-top: 32%;
+        margin-left: 24%;
+    }
+    .tileContainer{
+        width:45%;
+    }
+}
+@media screen and (max-width:800px){
+    body{
+        background-color:rgb(151, 237, 248);
+    }
+    .tileContainer{
+        width:75%;
+    }
+    #logo{
+        height: 120px;
+        width: 120px;
+        font-size:60px
+    }
+   
+    #heading{
+        font-size: 35px;
+        margin-top: 26%;
+        margin-left: 15%;
+    
+    }
+    select {
+        height: 60px;
+        width: 60%;
+    }
+    .dropdown{
+        width: 100%;
+        margin-top: 36%;
+        margin-left: 25%;
+    }
+    .restDrop {
+        width: 60%;
+    }
+        
+}
+@media screen and (max-width:600px){
+    body{
+        background-color:rgb(243, 147, 147);
+    }
+}
