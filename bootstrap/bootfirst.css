@@ -26,3 +26,11 @@
     height:200px;
     background-color:rgb(30, 55, 65);
 }
+.glyphicon-trash{
+    font-size: 25px;
+    color:red
+}
+.glyphicon-edit{
+    font-size: 25px;
+    color:green
+}
