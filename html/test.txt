@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Raghav Assignment</title>
+        <style>
+            #heading{
+                text-align: center;
+                font-size:30px;
+                color:purple;
+                text-shadow: 2px 2px gray;
+            }
+            .imgDiv{
+                margin:auto;
+                border:2px groove black;
+                width:30%
+            }
+            img{
+                height:300px;
+                width:100%
+            }
+            #video{
+                height:200px;
+                width:20% 
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <p id="heading">
+                Hello World
+            </p>
+            <a href="https://www.facebook.com/raghav.handa.750" target="_blank">
+                Facebook
+            </a>
+            <div class="imgDiv">
+                <img src="raghav.jpeg" alt="raghav"/>
+            </div>
+            <p>Video Tag</p>
+            <video id="video" poster="raghav.jpeg" controls>
+                <source src="video.mp4"/>
+            </video>
+            <div>
+                <p>Audio Tag</p>
+                <audio id="audio" controls>
+                    <source src="song.mp3"/>
+                </audio>
+            </div>
+            
+        </div>
+        
+        <footer>
+            <hr/>
+            <center>
+                <h3> &copy; Raghav Handa</h3>
+            </center>
+
+        </footer>
+       
+    </body>
+</html>
