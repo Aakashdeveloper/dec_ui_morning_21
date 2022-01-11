@@ -18,9 +18,10 @@ javascript     > Dynamic
 > variable
 > alert console prompt
 > Operations
+////////////////
+> String Operations
 > String literals
 > Math
-> String Operations
 > let, const
 > localstorage
 > sessionStorage

@@ -99,6 +99,7 @@ number + number = number
 '102030'
 
 10+"20"+30-1
+"102030"-1
 102029
 
 10+20+"30"-1
@@ -109,3 +110,26 @@ number + number = number
 
 "hi"-1
 NaN
+
+"10"-"a"
+NaN
+"10"-"1"
+9
+"20"*"2"
+40
+"20a"*"2"
+NaN
+"20"*"2a"
+NaN
+1+"10"
+'110'
+1-"10"
+-9
+4*"10"
+40
+4*"10a"
+NaN
+
+
+if both the side of operator you have pure number 
+except +(concat) all operation will work
