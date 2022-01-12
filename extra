@@ -18,14 +18,15 @@ javascript     > Dynamic
 > variable
 > alert console prompt
 > Operations
-////////////////
 > String Operations
 > String literals
+////////////////
 > Math
-> let, const
 > localstorage
 > sessionStorage
 > cookies
+
+> let, const
 > github 
 > condition
 > if else

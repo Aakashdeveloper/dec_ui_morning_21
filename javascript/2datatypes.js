@@ -81,3 +81,15 @@ Number(b)
 NaN
 Number(c)
 NaN
+
+var a = 10
+isNaN(a)
+false
+
+var a = "10"
+isNaN(a)
+false
+
+var a = "Hi"
+isNaN(a)
+true
