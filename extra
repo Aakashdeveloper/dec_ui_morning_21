@@ -2,6 +2,7 @@ https://code.visualstudio.com/download (install)
 https://github.com/ (create account)
 https://github.com/Aakashdeveloper (follow)
 https://git-scm.com/downloads (install)
+https://nodejs.org/en/(install)
 
 extensions
 > vscode-icons
@@ -20,17 +21,17 @@ javascript     > Dynamic
 > Operations
 > String Operations
 > String literals
-////////////////
 > Math
 > localstorage
 > sessionStorage
 > cookies
-
 > let, const
+////////////////
 > github 
 > condition
 > if else
 > ternery Operations
+
 > Date
 > switch
 > array
@@ -166,3 +167,5 @@ md > 768px
 lg > 992px
 xl > 1200px
 xxl > 1400px
+
+https://raw.githubusercontent.com/Aakashdeveloper/Aakashdeveloper/master/README.md
