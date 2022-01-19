@@ -27,24 +27,26 @@ javascript     > Dynamic
 > cookies
 > let, const
 > github 
-////////////////
 > condition
 > if else
-> ternery Operations
+> ternary Operations
 > Date
 > switch
-
+////////////////
 > array
-> Rest
 > loops
+
+> Rest
 > Functions
 > spread
 > Es6
     > maps,filter
+
 > regex
 > destructuring
 > Closures
 > Hoisting
+
 > object 
 > JSON
 > Es6
@@ -52,11 +54,13 @@ javascript     > Dynamic
     > import export
 > package.JSON
 > npm
+
 > this
 > Es6
     > classes
 > Prototypes
 > DoM
+
 > Calc
 > Form validation
 > Event
