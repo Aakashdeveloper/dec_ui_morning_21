@@ -35,19 +35,18 @@ javascript     > Dynamic
 > array
 > loops
 > Rest
-////////////////
 > Functions
 > spread
 > Es6
     > maps,filter
-
 > regex
 > destructuring
+////////////////
 > Closures
 > Hoisting
-
 > object 
 > JSON
+
 > Es6
     > Transpile
     > import export
@@ -172,3 +171,19 @@ xl > 1200px
 xxl > 1400px
 
 https://raw.githubusercontent.com/Aakashdeveloper/Aakashdeveloper/master/README.md
+
+
+
+function runFunc(){
+  console.log("1" + 1);
+  console.log("A" - 1);
+  console.log(2 + "-2" + "2");
+  console.log("Hello" - "World" + 78);
+  console.log("Hello"+ "78");
+}
+
+
+let x= {}, y = {name:"Ronny"},z = {name:"John"};
+x[y] = {name:"Vivek"};
+x[z] = {name:"Akki"};
+console.log(x[y]);
