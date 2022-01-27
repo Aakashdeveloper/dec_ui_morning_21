@@ -45,15 +45,13 @@ javascript     > Dynamic
 > Hoisting
 > object 
 > JSON
-
-////////////////
 > Es6
     > Transpile
     > import export
 > package.JSON
 > npm
-
 > this
+////////////////
 > Es6
     > classes
 > Prototypes
@@ -187,3 +185,17 @@ let x= {}, y = {name:"Ronny"},z = {name:"John"};
 x[y] = {name:"Vivek"};
 x[z] = {name:"Akki"};
 console.log(x[y]);
+
+package.json
+> Entry point in the application
+> Meta data(name,version,description)
+> packages we require
+> script(start,build,test)
+
+//step to generate package.json
+**NodeJs must be installed
+> go inside folder using cmd/terminal
+> npm init -y
+
+////////////////////////////////
+npm i @babel/core @babel/preset-env @babel/register
