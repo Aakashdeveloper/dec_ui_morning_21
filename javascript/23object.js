@@ -59,3 +59,25 @@ var movie = [
 
 movie[0].name
 'Avenger'
+
+var movie = {
+    name:"Avenger",
+    rating:4.5,
+    ind:"Hollywood"
+}
+
+for(key in movie){
+    console.log(key)
+}
+
+name
+rating
+ind
+
+for(key in movie){
+    console.log(movie[key])
+}
+
+Avenger
+4.5
+Hollywood
