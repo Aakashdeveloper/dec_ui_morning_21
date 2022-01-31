@@ -1,25 +1,12 @@
 <html>
     <head>
-        <script>
-            function add(){
-                let a = document.getElementById('first').value
-                let b = document.getElementById('second').value
-                let out = Number(a)+Number(b)
-                document.getElementById('output').innerText=`Sum of number is ${out}`
-            }
-            function sub(){
-                let a = document.getElementById('first').value
-                let b = document.getElementById('second').value
-                let out = a-b
-                document.getElementById('output').innerText=`Sub of number is ${out}`
-            }
-        </script>
+        <script src="calc.js"></script>
     </head>
     <body>
         <input id="first"/>
         <input id="second"/>
-        <button onClick="add()">Add</button>
-        <button onClick="sub()">Sub</button>
+        <button onClick="calc('add')">Add</button>
+        <button onClick="calc('sub')">Sub</button>
         <p id="output"></p>
     </body>
 </html>
