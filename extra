@@ -64,11 +64,9 @@ javascript     > Dynamic
 > promis
 > async await
 > screen
-////////////////
 > Geolocation
 > Dynamic DropDown
-
-
+////////////////
 > set interval
 > set timeout
 > debouncing
@@ -173,6 +171,7 @@ xl > 1200px
 xxl > 1400px
 
 https://raw.githubusercontent.com/Aakashdeveloper/Aakashdeveloper/master/README.md
+// https://api.openweathermap.org/data/2.5/forecast/daily?lat=28.9891224&lon=77.0342402&mode=json&units=metric&cnt=5&appid=fbf712a5a83d7305c3cda4ca8fe7ef29
 
 
 
